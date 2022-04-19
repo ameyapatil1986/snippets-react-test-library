@@ -1,0 +1,20 @@
+https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module
+yarn add --dev jest babel-jest @babel/preset-env @babel/preset-react react-test-renderer
+yarn config set ignore-engines true 
+
+Issue:
+import { PatternPrompt, printPatternCaret, printRestoredPatternCaret } from 'jest-watcher';
+https://stackoverflow.com/questions/70204039/failed-to-initialize-watch-plugin-node-modules-jest-watch-typeahead-filename-js
+solution:
+npm i -D --exact jest-watch-typeahead@0.6.5
+
+Videos:
+1) react and jest - https://www.youtube.com/playlist?list=PLGDf0elkI13EfDa45q-q1YpAIMBl5mjab
+2) install react and jest - https://www.youtube.com/watch?v=-bmdf1oATQo
+3) react testing library - https://www.youtube.com/watch?v=7dTTFW7yACQ&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ
+4) react testing library crash course - https://www.youtube.com/watch?v=GLSSRtnNY0g&t=1917s
+å
+
+Documentation:
+1) https://jestjs.io/docs/tutorial-react
+2) https://enzymejs.github.io/enzyme/
